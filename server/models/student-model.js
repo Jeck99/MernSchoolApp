@@ -6,7 +6,7 @@ const Student = new Schema(
     {
      first_name:{type:String,required:true},   
      last_name:{type:String, required:true},
-     class:{type:String, required:true},
+     student_class:{type:String, required:true},
      lessons:{type:Number, required:true}
  },
  { timestamps: true },
